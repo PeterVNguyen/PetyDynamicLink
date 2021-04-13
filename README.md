@@ -100,6 +100,25 @@ Trong đó:
 
 Ví dụ: https://pety.vn/blog/ung-dung-danh-rieng-cho-nguoi-yeu-thu-cung-day-roi.html#roto=Reward/params&UserId=208&PetId=806
 
+
+### 4.5 Vào màn chi tiết Reward
+   
+   Để Dynamic link có thể mở ứng dụng Pety và vào trang màn hình Reward detail thì ta cần thêm vào sau đuôi đường dẫn link như sau:
+
+```
+#roto=RewardDetail/params&RewardItemId=<RewardItemId>
+```
+
+Trong đó:
+
+- **_RewardItemId_** là key và giá trị của tham số trong màn hình truyền vào
+
+> Lưu ý: \
+> RewardItemId liên hệ các anh Coder đẹp trai trong teaam để lấy tham số truyền vào.\
+> Truyền sai tham số có thể gây crash và gây lỗi cho màn hình đó.
+
+Ví dụ: https://pety.vn/blog/ung-dung-danh-rieng-cho-nguoi-yeu-thu-cung-day-roi.html#roto=RewardDetail/params&RewardItemId=7
+
 ### 5. Define link behavior for iOS
 
 Cài đặt Dynamic link cho iOS
